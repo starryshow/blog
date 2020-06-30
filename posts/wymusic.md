@@ -11,7 +11,7 @@
 <p>进入选择自动，在URL那里填写获取的WiFi解锁链接，点击储存</p>
 <p><img src="https://xkshow.gitee.io/blog/pic/wy5.jpg" referrerpolicy="no-referrer"></p>
 <p>最后我们进入网易云音乐就可以试听灰色歌曲与会员歌曲了。</p>
-<p><img src="https://xkshow.gitee.io/blog/pic/wy1.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
+<p><img src="https://xkshow.gitee.io/blog/pic/wy16.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
 <p>缺点：4G网络无法使用！</p>
 <p><strong>小火箭解锁方法</strong></p>
 
