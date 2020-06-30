@@ -39,6 +39,6 @@ if(update_i >= 5) {
 }
 ```
 
-关于本博客模板可访问 https://github.com/starryshow/blog/blob/master/workers-sakurafrp.js 查看。
+关于本博客模板可访问 https://github.com/starryshow/blog/blob/master/starry-blog.js 查看。
 
 
