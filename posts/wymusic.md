@@ -11,10 +11,7 @@
 <p>进入选择自动，在URL那里填写获取的WiFi解锁链接，点击储存</p>
 <p><img src="https://xkshow.gitee.io/blog/pic/wy5.jpg" referrerpolicy="no-referrer"></p>
 <p>最后我们进入网易云音乐就可以试听灰色歌曲与会员歌曲了。</p>
-<p><table><tr>
-<td>解锁前：<img src=https://xkshow.gitee.io/blog/pic/wy1.jpg border=0></td>
-<td>解锁后：<img src=https://xkshow.gitee.io/blog/pic/wy2.jpg border=0></td>
-</tr></table></p>
+<p><img src="https://xkshow.gitee.io/blog/pic/wy1.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
 <p>缺点：4G网络无法使用！</p>
 <p><strong>小火箭解锁方法</strong></p>
 
@@ -29,10 +26,7 @@
 <p>全局路由处选择配置，接着我们开启小火箭</p>
 <p><img src="https://xkshow.gitee.io/blog/pic/wy9.jpg" referrerpolicy="no-referrer"></p>
 <p>最后我们进入网易云音乐就可以试听灰色歌曲与会员歌曲了。</p>
-<p><table><tr>
-<td>解锁前：<img src=https://xkshow.gitee.io/blog/pic/wy1.jpg border=0></td>
-<td>解锁后：<img src=https://xkshow.gitee.io/blog/pic/wy2.jpg border=0></td>
-</tr></table></p>
+<p><img src="https://xkshow.gitee.io/blog/pic/wy1.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
  
 <p>优点：4G网络与Wi-Fi皆可使用！</p>
 <p><strong>Quantumult解锁方法</strong></p>
@@ -44,10 +38,7 @@
 <p>运行模式选择分流，然后我们开启Quantumult。</p>
 <p><img src="https://xkshow.gitee.io/blog/pic/wy11.jpg" referrerpolicy="no-referrer"></p>
 <p>最后我们进入网易云音乐就可以试听灰色歌曲与会员歌曲了。</p>
-<p><table><tr>
-<td>解锁前：<img src=https://xkshow.gitee.io/blog/pic/wy1.jpg border=0></td>
-<td>解锁后：<img src=https://xkshow.gitee.io/blog/pic/wy2.jpg border=0></td>
-</tr></table></p>
+<p><img src="https://xkshow.gitee.io/blog/pic/wy1.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
  
 <p>优点：4G网络与Wi-Fi皆可使用！</p>
 <p><strong>QuantumultX解锁方法</strong> </p>
@@ -59,10 +50,7 @@
 <p>模式选择规则分流，然后我们开启QuantumultX。</p>
 <p><img src="https://xkshow.gitee.io/blog/pic/wy13.jpg" referrerpolicy="no-referrer"></p>
 <p>最后我们进入网易云音乐就可以试听灰色歌曲与会员歌曲了。</p>
-<p><table><tr>
-<td>解锁前：<img src=https://xkshow.gitee.io/blog/pic/wy1.jpg border=0></td>
-<td>解锁后：<img src=https://xkshow.gitee.io/blog/pic/wy2.jpg border=0></td>
-</tr></table></p>
+<p><img src="https://xkshow.gitee.io/blog/pic/wy1.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
  
 <p>优点：4G网络与Wi-Fi皆可使用！</p>
 <p><strong>HTTPCatcher解锁方法</strong> </p>
@@ -74,10 +62,7 @@
 <p>接着我们选择刚刚保存的配置代理，然后开启HTTPCatcher</p>
 <p><img src="https://xkshow.gitee.io/blog/pic/wy15.jpg" referrerpolicy="no-referrer"></p>
 <p>最后我们进入网易云音乐就可以试听灰色歌曲与会员歌曲了。  </p>
-<p><table><tr>
-<td>解锁前：<img src=https://xkshow.gitee.io/blog/pic/wy1.jpg border=0></td>
-<td>解锁后：<img src=https://xkshow.gitee.io/blog/pic/wy2.jpg border=0></td>
-</tr></table></p>
+<p><img src="https://xkshow.gitee.io/blog/pic/wy1.jpg" referrerpolicy="no-referrer" alt="解锁前后对比图"></p>
  
 <p>优点：4G网络与Wi-Fi皆可使用！</p>
 <p>其实还有其他工具也可以解锁，这里就不一一说明方法了！</p>
