@@ -61,7 +61,6 @@ var header = `<!DOCTYPE HTML>
         <meta name="theme-color" content="#3a3f51" />
     
     <meta http-equiv="x-dns-prefetch-control" content="on">
-
     <title>Starry、风-Blog</title>
             <link rel="icon" type="image/ico" href="https://xkshow.gitee.io/blog/img/logo.png">
         <meta name="description" content="星空工作室 - 每个人都是独立的经济体，保持好奇心来拥抱世界。" />
@@ -73,17 +72,11 @@ var header = `<!DOCTYPE HTML>
 <link rel="alternate" type="application/rss+xml" title="Starry、风-Blog &raquo; RSS 2.0" href="/feed/" />
 <link rel="alternate" type="application/rdf+xml" title="Starry、风-Blog &raquo; RSS 1.0" href="/feed/rss/" />
 <link rel="alternate" type="application/atom+xml" title="Starry、风-Blog &raquo; ATOM 1.0" href="/feed/atom/" />
-
         <!-- 第三方CDN加载CSS -->
         <link href="${css_bootstrap}" rel="stylesheet">
-
-
     <!-- 本地css静态资源 -->
     <link rel="stylesheet" href="${css_function}" type="text/css" />
     <link rel="stylesheet" href="${css_handsome}" type="text/css" />
-
-
-
     <!--主题组件css文件加载-->
         <link rel="stylesheet" href="${css_jquery}" type="text/css" />
         <link rel="stylesheet" href="${css_newblack}" type="text/css" />
@@ -111,11 +104,9 @@ var header = `<!DOCTYPE HTML>
 pull-right hidden-xs text-ellipsis{
     display: none;
 }
-
 .hideContent {
     text-align: left;
 }
-
 .no-container #post-panel, .no-container .blog-posts{
     max-width: 980px;
 }
@@ -134,20 +125,16 @@ color: #000;
 .text-title{
 color: #000;
 }
-
 body{
 color: #282828;
 }
-
 .bg-light{
 color: #999;
 background-color: #212121;
 }
-
 .badge{
 background-color: #282828;
 }
-
 .bg-white .text-muted{
 color: #999!important;
 }#aside .wrapper:hover {
@@ -155,10 +142,8 @@ color: #999!important;
 	background-size: cover;
 	color: #999;
 }    </style>
-
     <!--全站jquery-->
     <script src="${js_jquery}"></script>
-
     <!--网站统计代码-->
     <!-- Global site tag (gtag.js) - Google Analytics - 跟踪 ID：UA-105820054-1 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105820054-1"></script>
@@ -166,10 +151,8 @@ color: #999!important;
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-105820054-1');
 </script>
-
 <!-- Hotjar Tracking Code for https://www.baidu.com -->
 <script>
     (function(h,o,t,j,a,r){
@@ -182,13 +165,8 @@ color: #999!important;
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
     <script src="${js_fancyMorph}"></script>
-
-
 </head>
-
 <body id="body" class="fix-padding">
-
-
   <!-- aside -->
     
   <div id="alllayout" class="app app-aside-fix no-container app-header-fixed ">  <!-- headnav -->
@@ -209,7 +187,6 @@ color: #999!important;
         <!-- / brand -->
       </div>
       <!-- / navbar header -->
-
       <!-- navbar collapse（顶部导航栏） -->
     <div class="collapse pos-rlt navbar-collapse bg-white">
         <!-- search form -->
@@ -269,7 +246,6 @@ color: #999!important;
       <!-- / navbar collapse -->
   </header>
   <!-- / headnav -->
-
   <!--选择侧边栏的颜色-->
   <aside id="aside" class="app-aside hidden-xs bg-white ">  <!--<aside>-->
         <div class="aside-wrap" layout="column">
@@ -280,7 +256,7 @@ color: #999!important;
                 <div ui-nav>
                           <a href="/starry">
                             <span class="thumb-lg w-auto-folded avatar m-t-sm  vertical-avatar">
-                  <img src="https://xkshow.gitee.io/blog/img/hahahahaha.gif" class="img-full img-circle normal-shadow">
+                  <img src="${owner_logo}" class="img-full img-circle normal-shadow">
                 </span>
               </a>
                 </div>
@@ -301,7 +277,7 @@ color: #999!important;
                                                   <p>在时间的大钟上，只有两个字现在</p>
                                   </div>
                   <div class="progress progress-xs m-b-none dker">
-                    <div class="progress-bar bg-white" data-toggle="tooltip" data-original-title="时间" style="width: 58.33%"></div>
+                    <div class="progress-bar bg-white" data-toggle="tooltip" data-original-title="时间" style="width: 100%"></div>
                   </div>
                 </li>
               </ul>
@@ -309,7 +285,6 @@ color: #999!important;
             </div>
           </div>
           <!-- / user -->
-
           <!-- nav -->
           <nav ui-nav class="navi clearfix">
             <ul class="nav">
@@ -343,7 +318,6 @@ color: #999!important;
                   </span>
 <!--                  <i class="glyphicon glyphicon-th"></i>-->
                     <span class="nav-icon"><i data-feather="grid"></i></span>
-
                     <span>分类</span>
                 </a>
                 <ul class="nav nav-sub dk">
@@ -424,21 +398,17 @@ color: #999!important;
     <div id="loading" class="butterbar active hide">
             <span class="bar"></span>
         </div>  <!-- / aside -->
-
-<!-- <div id="content" class="app-content"> -->
+		<!-- <div id="content" class="app-content"> -->
   <a class="off-screen-toggle hide"></a>
   <main class="app-content-body animated fadeIn">
     <div class="hbox hbox-auto-xs hbox-auto-sm">
       <div class="col center-part">
                   <header class="bg-light lter wrapper-md">
-          <h1 class="m-n font-thin text-black l-h">Starry、风-Blog</h1>
+          <h1 class="m-n font-thin text-black l-h">Starry、风</h1>
           <small class="text-muted letterspacing indexWords">On the clock of time,there are only two words now.</small>
           </header>
         <div class="wrapper-md" id="post-panel">
-
                         <!--首页输出文章-->
-
-            <div class="blog-post">
 						`;
 
 var modifyHeader = {};
@@ -515,7 +485,7 @@ async function bloghandle(request) {
 			var tmpimg = json[i].img;
 			var tmptime = json[i].time;
 			var tmptitle = json[i].title;
-			data += `<div class="panel-small single-post box-shadow-wrap-normal">
+			data += `<div class="blog-post"><div class="panel-small single-post box-shadow-wrap-normal">
                                  <div class="index-post-img-small post-feature index-img-small">
                                  <a href="/${tmpfilename}">
                                  <div class="item-thumb-small lazy"  style="background-image: url(${tmpimg})"></div>
@@ -524,7 +494,6 @@ async function bloghandle(request) {
                                    <div class="text-muted post-item-foot-icon text-ellipsis list-inline">
                                   <li>
                                   <span class="m-r-sm right-small-icons"><i data-feather="user"></i></span><a href="/">${owner_name}</a></li>
-
                                 <li><span class="right-small-icons m-r-sm"><i data-feather="clock"></i></span>${tmptime}</li><li><span class="right-small-icons m-r-sm"><i data-feather="message-square"></i></span><a href="/driver.html#comments">暂无评论</a></li></div></div></div>
 						`;
 			update_i++;
@@ -647,8 +616,10 @@ async function bloghandle(request) {
 			};
 		}
 		data += `</div>
-						<p class="text-center{isunknown}"><small>发表于 ${ctime}</small></p>
-						<textarea id="textdata" style="display: none;">`;
+         <div id="postpage" class="blog-post">
+        <article class="single-post panel">
+		<div id="post-content" class="wrapper-lg">
+          <div class="entry-content l-h-2x">`;
 		var url = "https://raw.githubusercontent.com/" + github_base + "/master/posts" + urls.pathname + ".md";
 		const init = {
 			method: "GET"
@@ -656,19 +627,45 @@ async function bloghandle(request) {
 		const response = await fetch(url, init);
 		if(response.status == 200) {
 			var resptxt = await response.text();
-			data += resptxt.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-			description = resptxt.substring(0, 128).replace(/"/ig, "").replace(/\n/g, " ");
+			data += resptxt.replace(/&/g, "&").replace(/</g, "<").replace(/>/g, ">");
+			description = resptxt.substring(0, 128).replace(/"/ig, "").replace(/\n/g, "\n");
 			data += `</textarea>
 					<hr>
-					<div id="comments"></div>
+</div>
+<div class="support-author">
+                 <button data-toggle="modal" data-target="#myModal" class="btn btn-pay btn-danger btn-rounded"><i class="fontello fontello-wallet" aria-hidden="true"></i>赞赏</button>
+                 <div class="mt20 text-center article__reward-info">
+                     <span class="mr10">如果觉得我的文章对你有用，请随意赞赏</span>
+                 </div>
+             </div>
+             <div id="myModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                 <div class="modal-dialog modal-sm" role="document">
+                     <div class="modal-content">
+                         <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                             <h4 class="modal-title">赞赏作者</h4>
+                         </div>
+                         <div class="modal-body">
+                             <p class="text-center article__reward"> <strong class="article__reward-text">扫一扫支付</strong> </p>
+                             <div class="tab-content"><img noGallery aria-labelledby="alipay-tab" class="pay-img tab-pane fade in active" id="alipay_author" role="tabpanel" src="https://xkshow.gitee.io/blog/img/zfbfk.jpg" /><img noGallery aria-labelledby="wechatpay-tab" class="pay-img tab-pane fade" id="wechatpay_author" role="tabpanel" src="https://xkshow.gitee.io/blog/img/wxfk.jpg" /></div>
+                             <div class="article__reward-border mb20 mt10"></div>
+
+                             <div class="text-center" role="tablist"><div class="pay-button" role="presentation" class="active"><button  href="#alipay_author" id="alipay-tab" aria-controls="alipay_author" role="tab" data-toggle="tab" class="btn m-b-xs m-r-xs btn-info"><i class="iconfont icon-alipay" aria-hidden="true"></i><span>支付宝支付</span></button>
+                                 </div><div class="pay-button" role="presentation"><button href="#wechatpay_author" id="wechatpay-tab" aria-controls="wechatpay_author" role="tab" data-toggle="tab" class="btn m-b-xs btn-success"><i class="iconfont icon-wechatpay" aria-hidden="true"></i><span>微信支付</span></button>
+                                 </div></div>
+                         </div>
+                     </div>
+                 </div>
+             </div><hr>
+					<div id="comments" style="text-align:center;">发表于${ctime}</div>
 				`;
 		} else {
-			data += `### 404 Not Found
-未找到您访问的页面，原因可能是：
-- 该文章已被删除
-- 该文章已经更改名称
-- 您输入的链接不正确
-<a href="/">返回 ${default_intitle} 首页</a>
+			data += `<p class="text-center">### 404 Not Found</p>
+<p class="text-center">未找到您访问的页面，原因可能是：</p>
+<p class="text-center">- 该文章已被删除</p>
+<p class="text-center">- 该文章已经更改名称</p>
+<p class="text-center">- 您输入的链接不正确</p>
+<p class="text-center"><a href="/">返回 ${default_intitle} 首页</a></p>
 					</textarea>
 				`;
 			title = `404 Not Found`;
@@ -680,8 +677,8 @@ async function bloghandle(request) {
 		title2 = ` - ${default_title}`;
 	}
 	data += `<footer id="footer" class="app-footer" role="footer">
-    <div class="wrapper bg-light">
-      <span class="pull-right hidden-xs text-ellipsis">
+    <div class="wrapper bg-light" style="text-align:center;">
+      <span class="pull-right hidden-xs text-ellipsis"">
       粤ICP备3867547号       
       </span>
         <span class="text-ellipsis">Copyright ©2020 Starry、风</span>
@@ -694,21 +691,17 @@ async function bloghandle(request) {
           </style>
       
       <div class="topButton panel panel-default">
-          <button id="goToTop" class="btn btn-default no-shadow pos-abt hide  border-radius-half-left"
-                  data-toggle="tooltip" data-placement="left" data-original-title="返回顶部">
+          <button id="goToTop" class="btn btn-default no-shadow pos-abt hide  border-radius-half-left" data-toggle="tooltip" data-placement="left" data-original-title="返回顶部">
               <i class="fontello fontello-chevron-circle-up" aria-hidden="true"></i>
           </button>
       </div>
   </footer>
   </div><!--end of .app app-header-fixed-->
-
 <script>
 SearchConfig = {
     url : "/search"
 }
 </script>
-
-
     <!--定义全局变量-->
     <script type="text/javascript">
         window['LocalConst'] = {
@@ -718,7 +711,6 @@ SearchConfig = {
             COMMENT_CONTENT_INFO: '必须填写评论内容',
             COMMENT_SUBMIT_ERROR: '提交失败，请重试！',
             COMMENT_CONTENT_LEGAL_INFO: '提交失败,评论被拦截，可能发言太快或内容不符合规则',
-
             LOGIN_USERNAME_INFO: '必须填写用户名',
             LOGIN_PASSWORD_INFO: '请填写密码',
             LOGIN_SUBMIT_ERROR: '登录失败，请重新登录',
@@ -726,16 +718,13 @@ SearchConfig = {
             LOGIN_SUBMIT_SUCCESS: '登录成功',
             CLICK_TO_REFRESH: '点击以刷新页面',
             LOGOUT_SUCCESS_REFRESH: '退出成功，正在刷新当前页面',
-
             LOGOUT_ERROR: '退出失败，请重试',
             LOGOUT_SUCCESS: '退出成功',
-
             SUBMIT_PASSWORD_INFO: '密码错误，请重试',
             COMMENT_TITLE: '评论通知',
             LOGIN_TITLE: '登录通知',
             ChANGYAN_APP_KEY: '',
             CHANGYAN_CONF: '',
-
             COMMENT_SYSTEM: '0',
             COMMENT_SYSTEM_ROOT: '0',
             COMMENT_SYSTEM_CHANGYAN: '1',
@@ -766,7 +755,6 @@ SearchConfig = {
             COMMENT_PLACEHOLDER: '说点什么吧……',
             SHOW_SETTING_BUTTON: '',
             THEME_VERSION: '6.0.020191205',
-
             OPERATION_NOTICE: '操作通知',
             SCREENSHOT_BEGIN: '正在生成当前页面截图……',
             SCREENSHOT_NOTICE: '点击顶部下载按钮保存当前卡片',
@@ -779,15 +767,9 @@ SearchConfig = {
             CDN_NAME: 'QINIU',
             LAZY_LOAD: ''
         };
-
     </script>
-
-
-
 <!--CDN加载-->
 <script src="${js_bootstrap}"></script>
-
-
     <script src="${js_jquerypjax}" type="text/javascript"></script>
     <script>
         $(document).pjax('a[href^="https://blog.wubin.design/"]:not(a[target="_blank"], a[no-pjax])', {
@@ -797,12 +779,10 @@ SearchConfig = {
         }).on('pjax:send',function () {
                         $('#loading').removeClass('hide');
                     }).on('pjax:click', function() {
-
             window['Page'].doPJAXClickAction();
             
                         $('body,html').animate({scrollTop:0},100);
             
-
         }).on('pjax:complete', function() {
             window['Page'].doPJAXCompleteAction();
             if ($(".post-position").length > 0){
@@ -811,55 +791,32 @@ SearchConfig = {
                                     $('#loading').addClass('hide');
             
                         
-
         })
     </script>
-
-
 <!--主题组件js加载-->
-
     <!--平滑滚动组件-->
     <script src="${js_SmoothScroll}"></script>
-
-
 <!--pjax动画组件-->
-
-
 <script src="${js_feather}"></script>
-
-
-
-
 <!--lightgallery必备组件-->
 <script src="${js_fancybox}"></script>
 <script src="${js_easypiechart}"></script>
-
-
     <!--component/comments.php 页面必需js（只有选择了原生评论的时候才会加载）-->
     <script src="${js_OwO}"></script>
     <!--component/comments.php 必需js结束-->
-
-
 <!--截图插件-->
 <script src="${js_html2canvas}"></script>
 <!--主题组件js加载结束-->
-
 <!--主题核心js-->
     <script src="${js_function}"></script>
     <script src="${js_core}"></script>
-
-
     <!--全局播放器组件-->
     <script src="${js_music}"></script>
     <script>
                 var player = new skPlayer({"autoplay":false,"listshow":false,"mode":"listloop","music":{"type":"cloud","source":"3186927696","media":"netease"}});
     </script>
-
-
     <script type="text/javascript">
               </script>
-
-
 </body>
 </html>
 	`;
